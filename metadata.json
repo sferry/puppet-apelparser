@@ -1,0 +1,20 @@
+{
+  "name": "kreczko-apel_parser",
+  "author": "kreczko",
+  "description": "",
+  "license": "",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "65c792389258e9e7d0cbf2cc576b362a",
+    "README.md": "d72cae7344a27d7e910ceb0c42bd8e50",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "a38d766ad44190968911158485add369",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "fe331ec70afe929602636500eab5c222"
+  },
+  "dependencies": []
+}

@@ -10,6 +10,16 @@
 #
 # Sample Usage:
 #
-class apel_parser {
+class apelparser {
+class { 'apelparser::repositories': }
 
+  class { 'apelparser::install': }
+
+
+  class { 'apelparser::config': }
+
+  class { 'apelparser::cron': }
+
+  Class['apelparser::repositories'] -> Class['apelparser::install'] -> 
+  Class['apelparser::config'] -> Class['apelparser::cron']
 }

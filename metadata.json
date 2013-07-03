@@ -12,7 +12,7 @@
     "README.md": "d72cae7344a27d7e910ceb0c42bd8e50",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
     "manifests/config.pp": "39be444b99897c1337f87578dd00f3c6",
-    "manifests/cron.pp": "b25748a25e524e47dd3619c074d7f558",
+    "manifests/cron.pp": "22560aefbed2de65035ffa047f8135e3",
     "manifests/init.pp": "b59d0c9c43a8bd8c6d9dbd80c69b03d4",
     "manifests/install.pp": "2ab5ff96e2f551f59ac6b12eda6db35c",
     "manifests/repositories.pp": "09e4cd61010cb54cb86f71c0bb1fad2e",

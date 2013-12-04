@@ -3,15 +3,15 @@
 ####################################################
 # Information about the apel client database
 [db]
-hostname = <%= mysql_hostname %>
-port = <%= mysql_port %>
-name = <%= mysql_database %>
-username = <%= mysql_user %>
-password = <%= mysql_password %>
+hostname = <%= @mysql_hostname %>
+port = <%= @mysql_port %>
+name = <%= @mysql_database %>
+username = <%= @mysql_user %>
+password = <%= @mysql_password %>
 
 [blah]
 enabled = true
-dir = /var/log/cream/accounting
+dir = <%= @blah_dir %>
 # typical logfile name is blahp.log-yyyymmdd
 filename_prefix = blahp.log
 subdirs = false
@@ -23,7 +23,7 @@ enabled = true
 
 type = PBS
 #parallel = false
-dir = /var/torque/server_priv/accounting
+dir = <%= @torque_dir %>
 ## typical logfile name is yyyymmdd e.g. 20120101
 filename_prefix = 201
 subdirs = false
@@ -48,11 +48,11 @@ subdirs = false
 
 [site_info]
 # Specify the site name from GOCDB
-site_name = <%= site_name %>
+site_name = <%= @site_name %>
 # Batch system hostname.  This does not need to be a definitive hostname,
 # but it should uniquely identify the batch system.
 # Example: pbs.gridpp.rl.ac.uk
-lrms_server = <%= fqdn %>
+lrms_server = <%= @fqdn %>
 
 
 [logging]

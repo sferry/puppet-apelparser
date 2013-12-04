@@ -10,16 +10,15 @@
 #
 # Sample Usage:
 #
-class apelparser {
-class { 'apelparser::repositories': }
+class apelparser($with_repositories=true) {
+  if($with_repositories) {
+    class { 'apelparser::repositories': before=> Class['apelparser::install']}
+  }
 
   class { 'apelparser::install': }
-
-
+  ->
   class { 'apelparser::config': }
-
+  ->
   class { 'apelparser::cron': }
 
-  Class['apelparser::repositories'] -> Class['apelparser::install'] -> 
-  Class['apelparser::config'] -> Class['apelparser::cron']
 }

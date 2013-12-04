@@ -11,16 +11,16 @@
     "Modulefile": "88035669a52fd569fed9865cf0d3516e",
     "README.md": "d72cae7344a27d7e910ceb0c42bd8e50",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests/config.pp": "39be444b99897c1337f87578dd00f3c6",
-    "manifests/cron.pp": "22560aefbed2de65035ffa047f8135e3",
-    "manifests/init.pp": "b59d0c9c43a8bd8c6d9dbd80c69b03d4",
-    "manifests/install.pp": "2ab5ff96e2f551f59ac6b12eda6db35c",
-    "manifests/repositories.pp": "09e4cd61010cb54cb86f71c0bb1fad2e",
-    "manifests/uninstall.pp": "79dbaf03f459e92d6d726262b7d53f2a",
-    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "templates/parser.cfg.erb": "03e65a5906cfa0f47ad0fd05c8ac2aee",
-    "tests/init.pp": "f9cfdc31da1554d0bd608a0e0a4924c8"
+    "manifests\\config.pp": "39be444b99897c1337f87578dd00f3c6",
+    "manifests\\cron.pp": "22560aefbed2de65035ffa047f8135e3",
+    "manifests\\init.pp": "52cafe272bee93d831aeff07323222a9",
+    "manifests\\install.pp": "15e8addb99f4df901cc06e4a721ed841",
+    "manifests\\repositories.pp": "09e4cd61010cb54cb86f71c0bb1fad2e",
+    "manifests\\uninstall.pp": "79dbaf03f459e92d6d726262b7d53f2a",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates\\parser.cfg.erb": "03e65a5906cfa0f47ad0fd05c8ac2aee",
+    "tests\\init.pp": "f9cfdc31da1554d0bd608a0e0a4924c8"
   },
   "dependencies": []
 }

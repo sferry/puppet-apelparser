@@ -20,5 +20,5 @@ class apelparser($with_repositories=true) {
   class { 'apelparser::config': }
   ->
   class { 'apelparser::cron': }
-
+#comment
 }
